@@ -1,7 +1,7 @@
 #This blueprint will create the 
 #required node app image
 
-FROM node:fermium-buster-alpine3.15
+FROM node:13-alpine
 
 ENV MONGO_DB_USERNAME=admin MONGO_DB_PWD=password
 

@@ -48,9 +48,9 @@
         const user = await response.json();
         console.log(JSON.stringify(user));
 
-        document.getElementById('name').textContent = user.name ? user.name : 'Anna Smith';
-        document.getElementById('email').textContent = user.email ? user.email : 'anna.smith@example.com';
-        document.getElementById('interests').textContent = user.interests ? user.interests : 'coding';
+        document.getElementById('name').textContent = user.name ? user.name : 'Shashwat Pathak';
+        document.getElementById('email').textContent = user.email ? user.email : 'shashpat@1234.com';
+        document.getElementById('interests').textContent = user.interests ? user.interests : 'clouds';
 
         const cont = document.getElementById('container');
         cont.style.display = 'block';
@@ -99,23 +99,23 @@
 <body>
     <div class='container' id='container'>
         <h1>User profile</h1>
-        <img src='profile-picture' alt="user-profile">
-        <span>Name: </span><h3 id='name'>Anna Smith</h3>
+        <img src='dp' alt="failure">
+        <span>Name: </span><h3 id='name'>Shash Pat</h3>
         <hr />
-        <span>Email: </span><h3 id='email'>anna.smith@example.com</h3>
+        <span>Email: </span><h3 id='email'>shashpat@1234.com</h3>
         <hr />
-        <span>Interests: </span><h3 id='interests'>coding</h3>
+        <span>Interests: </span><h3 id='interests'>clouds</h3>
         <hr />
         <button class='button' onclick="updateProfile()">Edit Profile</button>
     </div>
     <div class='container' id='container-edit'>
         <h1>User profile</h1>
-        <img src='profile-picture' alt="user-profile">
-        <span>Name: </span><label for='input-name'></label><input type="text" id='input-name' value='Anna Smith' />
+        <img src='dp' alt="failure">
+        <span>Name: </span><label for='input-name'></label><input type="text" id='input-name' value='Shash Pat' />
         <hr />
-        <span>Email: </span><label for='input-email'></label><input type="email" id='input-email' value='anna.smith@example.com' />
+        <span>Email: </span><label for='input-email'></label><input type="email" id='input-email' value='shashpat@1234.com' />
         <hr />
-        <span>Interests: </span><label for='input-interests'></label><input type="text" id='input-interests' value='coding' />
+        <span>Interests: </span><label for='input-interests'></label><input type="text" id='input-interests' value='clouds' />
         <hr />
         <button class='button' onclick="handleUpdateProfileRequest()">Update Profile</button>
     </div>

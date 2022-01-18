@@ -3,6 +3,7 @@ services:
 #node application container
 #env vars already set in built time
   node-app:
+    restart: always
     image: "${pvtimg}"
     ports:
       - 3000:3000
