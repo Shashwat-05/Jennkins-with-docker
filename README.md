@@ -1,6 +1,6 @@
-# Node-Express-Mongo-Containerized stack
+# Node-Express-Mongo-Containerized stack with Jenkins CI-CD Pipelines
 
-### A Node-Express application with MongoDB as database support and  all these components are running on their own dedicated containerized form.
+### A Node-Express application with MongoDB as database support and  all these components are running on their own dedicated containerized form in a multi-stage CI-CD pipeline.
 
 #### Steps
 
