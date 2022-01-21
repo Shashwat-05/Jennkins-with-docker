@@ -18,3 +18,10 @@ They can be accessed at
 
 - Node application - http://localhost:3000
 - Mongo-express - http://localhost:8081
+
+##### About the files in the repo
+
+**Jenkinsfile** - contains the declarative groovy script to create a multi-pipeline
+**Dockerfile** - contains blueprint for the node application from build to run state
+**docker-compose.yml** - contains the compose code for all three containers to launch them
+**app** - directory contains the web application's code running in node container
