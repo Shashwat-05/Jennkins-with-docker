@@ -22,6 +22,11 @@ They can be accessed at
 ##### About the files in the repo
 
 **Jenkinsfile** - contains the declarative groovy script to create a multi-pipeline
+
 **Dockerfile** - contains blueprint for the node application from build to run state
+
 **docker-compose.yml** - contains the compose code for all three containers to launch them
+
 **app** - directory contains the web application's code running in node container
+
+**.env** - contains the environment variables used by docker-compose file
